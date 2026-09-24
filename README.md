@@ -45,3 +45,15 @@ The script:
 - performs few-shot classification using one labelled training example from each party
 - cleans generated outputs so they can be compared with the true labels
 - evaluates zero-shot and few-shot predictions using macro F1 score and classification reports.
+
+
+
+## Results
+
+### Part Two — Traditional Machine Learning
+
+The strongest result was achieved by the basic TF-IDF linear SVM with a macro F1 score of **0.4652**.
+
+The SVM using the custom tokenizer achieved a similar macro F1 score of **0.4568**. Adding bigrams and trigrams did not improve the SVM result, although they improved the Random Forest model.
+
+Performance was weaker for the Liberal Democrat class, which had fewer examples than the larger classes in the dataset.
