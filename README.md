@@ -81,3 +81,11 @@ texts/
 │   └── [novel text files]
 ├── hansard10000.csv
 └── hansard500.csv
+
+
+
+```
+
+- `PartOne.py` uses the novel text files.
+- `PartTwo.py` uses `hansard10000.csv`.
+- `PartThree.py` uses `hansard500.csv`.
