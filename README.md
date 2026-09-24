@@ -57,3 +57,12 @@ The strongest result was achieved by the basic TF-IDF linear SVM with a macro F1
 The SVM using the custom tokenizer achieved a similar macro F1 score of **0.4568**. Adding bigrams and trigrams did not improve the SVM result, although they improved the Random Forest model.
 
 Performance was weaker for the Liberal Democrat class, which had fewer examples than the larger classes in the dataset.
+
+
+### Part Three — LLM Classification
+
+The final zero-shot setup achieved a macro F1 score of **0.36896** and accuracy of **0.65**.
+
+Several few-shot prompt variations were tested. The strongest few-shot setup used one 600-character example from each class and achieved a macro F1 score of **0.35457** with accuracy of **0.61**.
+
+In these experiments, the final zero-shot setup performed slightly better than the best few-shot setup.
