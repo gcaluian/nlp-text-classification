@@ -68,13 +68,6 @@ Several few-shot prompt variations were tested. The strongest few-shot setup use
 In these experiments, the final zero-shot setup performed slightly better than the best few-shot setup.
 
 
-```
-
-- `PartOne.py` uses the novel text files.
-- `PartTwo.py` uses `hansard10000.csv`.
-- `PartThree.py` uses `hansard500.csv`.
-
-
 ## Requirements
 
 Python 3 with the following packages:
