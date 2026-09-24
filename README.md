@@ -44,4 +44,4 @@ The script:
 - performs zero-shot classification using a prompt that asks the model to return one party label
 - performs few-shot classification using one labelled training example from each party
 - cleans generated outputs so they can be compared with the true labels
-- evaluates zero-shot and few-shot predictions using macro F1 score and classification reportsm
+- evaluates zero-shot and few-shot predictions using macro F1 score and classification reports.
