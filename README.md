@@ -31,3 +31,17 @@ The script:
 - compares unigram features with unigram, bigram and trigram features
 - implements a custom tokenizer that removes punctuation, numbers, short words and English stopwords
 - evaluates the models using macro F1 score and classification reports
+
+
+
+### Part Three — Zero-Shot and Few-Shot LLM Classification
+
+Classification of UK parliamentary speeches using prompting with the `microsoft/Phi-4-mini-instruct` language model.
+
+The script:
+- prepares a smaller parliamentary speech dataset using the same four party labels
+- uses Hugging Face Transformers to run Phi-4-mini-instruct
+- performs zero-shot classification using a prompt that asks the model to return one party label
+- performs few-shot classification using one labelled training example from each party
+- cleans generated outputs so they can be compared with the true labels
+- evaluates zero-shot and few-shot predictions using macro F1 score and classification reportsm
