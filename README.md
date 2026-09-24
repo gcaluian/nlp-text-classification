@@ -68,22 +68,6 @@ Several few-shot prompt variations were tested. The strongest few-shot setup use
 In these experiments, the final zero-shot setup performed slightly better than the best few-shot setup.
 
 
-
-## Data
-
-The datasets used in the original coursework are not included in this repository.
-
-The scripts expect the following local structure:
-
-```text
-texts/
-├── novels/
-│   └── [novel text files]
-├── hansard10000.csv
-└── hansard500.csv
-
-
-
 ```
 
 - `PartOne.py` uses the novel text files.
