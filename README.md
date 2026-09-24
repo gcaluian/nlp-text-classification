@@ -66,3 +66,18 @@ The final zero-shot setup achieved a macro F1 score of **0.36896** and accuracy 
 Several few-shot prompt variations were tested. The strongest few-shot setup used one 600-character example from each class and achieved a macro F1 score of **0.35457** with accuracy of **0.61**.
 
 In these experiments, the final zero-shot setup performed slightly better than the best few-shot setup.
+
+
+
+## Data
+
+The datasets used in the original coursework are not included in this repository.
+
+The scripts expect the following local structure:
+
+```text
+texts/
+├── novels/
+│   └── [novel text files]
+├── hansard10000.csv
+└── hansard500.csv
