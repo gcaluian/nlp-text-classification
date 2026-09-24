@@ -18,3 +18,16 @@ The script:
 - parses the texts using spaCy
 - identifies the ten most common syntactic subjects
 - calculates Pointwise Mutual Information (PMI) to identify verbs associated with the subjects `he` and `she`
+
+
+### Part Two — Machine Learning Text Classification
+
+Classification of UK parliamentary speeches by political party using traditional machine learning methods.
+
+The script:
+- prepares and filters the parliamentary speech dataset
+- converts the text into TF-IDF features
+- trains and evaluates Random Forest and linear SVM classifiers
+- compares unigram features with unigram, bigram and trigram features
+- implements a custom tokenizer that removes punctuation, numbers, short words and English stopwords
+- evaluates the models using macro F1 score and classification reports
