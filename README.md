@@ -73,3 +73,21 @@ In these experiments, the final zero-shot setup performed slightly better than t
 - `PartOne.py` uses the novel text files.
 - `PartTwo.py` uses `hansard10000.csv`.
 - `PartThree.py` uses `hansard500.csv`.
+
+
+## Requirements
+
+Python 3 with the following packages:
+
+- pandas
+- NLTK
+- spaCy
+- scikit-learn
+- PyTorch
+- Transformers
+
+Part One also requires the spaCy English model:
+
+```bash
+python -m spacy download en_core_web_sm
+```
