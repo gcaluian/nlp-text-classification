@@ -68,6 +68,15 @@ Several few-shot prompt variations were tested. The strongest few-shot setup use
 In these experiments, the final zero-shot setup performed slightly better than the best few-shot setup.
 
 
+## Files
+
+- `PartOne.py` — syntax, readability and stylistic analysis of novels
+- `PartTwo.py` — TF-IDF classification using SVM and Random Forest
+- `PartThree.py` — zero-shot and few-shot classification using Phi-4-mini-instruct
+- `requirements.txt` — Python package dependencies
+
+
+
 ## Requirements
 
 Python 3 with the following packages:
