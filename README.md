@@ -93,3 +93,12 @@ Part One also requires the spaCy English model:
 ```bash
 python -m spacy download en_core_web_sm
 ```
+
+## Installation
+
+Install the required Python packages with:
+
+```bash
+pip install -r requirements.txt
+
+python -m spacy download en_core_web_sm
